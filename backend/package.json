@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "db:init": "npx knex init",
+    "db:latest": "npx knex migrate:latest",
+    "db:rollback": "npx knex migrate:rollback",
+    "db:status": "npx knex migrate:status"
   },
   "keywords": [],
   "author": "",
