@@ -15,5 +15,23 @@ module.exports = {
         const [id] = await connection('incidents').insert({title, description, value, ong_id });
         
         return res.json({ id });
+    },
+    
+    async delete(req, res) {
+        const { id,  } = req.params;
+        const ong_id = req.headers.authorizatiton;
+
+        const incident = await connection('incidents')
+            .where('id', id)
+            .select('ong_id')
+            .first();
+
+        if(incident.ong_id !== ong_id) {
+            return res.status(401).json({ error: 'Ação não permitida'});
+        }
+
+        await connection('incidents').where('id', id).delete();
+
+        return res.status(204).send();
     }
 }
