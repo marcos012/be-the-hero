@@ -12,7 +12,7 @@ Projeto criado no evento Semana omnistack 11 realizado pela [Rocketseat](https:/
 
 Backend:
 
-intalar as dependencias
+Intalar as dependências
 ```
 npm i
 ```
@@ -23,4 +23,15 @@ npm run db:latest
 Start na aplicação
 ```
 npm run dev
+```
+
+Frontend:
+
+Intalar as dependências
+```
+npm i
+```
+Start na aplicação
+```
+npm start
 ```
