@@ -10,7 +10,7 @@ Projeto criado no evento Semana omnistack 11 realizado pela [Rocketseat](https:/
 
 ## Iniciar aplicação
 
-**Backend:
+**Backend:**
 
 Intalar as dependências
 ```
@@ -25,7 +25,7 @@ Start na aplicação
 npm run dev
 ```
 <br />
-**Frontend:
+**Frontend:**
 
 Intalar as dependências
 ```
