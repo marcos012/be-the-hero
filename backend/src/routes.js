@@ -8,6 +8,7 @@ const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
+//TODO: validar
 routes.post('/sessions', SessionController.create);
 
 routes.get('/ongs', OngController.index);
@@ -15,7 +16,7 @@ routes.post('/ongs', celebrate({
     [Segments.BODY]: Joi.object().keys({
         name: Joi.string().required(),
         email: Joi.string().required().email(),
-        whatsapp: Joi.number().required().min(10),
+        whatsapp: Joi.string().required().min(10).max(11),
         city: Joi.string().required(),
         uf: Joi.string().required().length(2)
     })
@@ -27,6 +28,7 @@ routes.get('/incidents', celebrate({
     })
 }), IncidentController.index);
 
+//TODO: validar
 routes.post('/incidents', IncidentController.create);
 
 routes.delete('/incidents/:id', celebrate({
