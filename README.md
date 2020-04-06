@@ -24,7 +24,8 @@ Projeto desenvolvido evento Semana omnistack 11 realizado pela [Rocketseat](http
 **Pré-requisitos:** <br>
 [Node/NPM](https://nodejs.org/en/) <br>
 [App do Expo](https://expo.io/) ou algum emulador de sua preferência
-<br />
+<br>
+
 **Backend:**
 
 Entre na pasta backend :)
