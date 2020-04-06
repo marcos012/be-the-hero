@@ -14,7 +14,7 @@ Projeto desenvolvido evento Semana omnistack 11 realizado pela [Rocketseat](http
 
 ## Stack
 
-- [NodeJS]](https://nodejs.org/en/)
+- [NodeJS](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [React](https://github.com/facebook/react)
 - [React Native](https://github.com/facebook/react-native)
