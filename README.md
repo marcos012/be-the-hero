@@ -22,6 +22,7 @@ Projeto desenvolvido evento Semana omnistack 11 realizado pela [Rocketseat](http
 
 ## Iniciar aplicação
 **Pré-requisitos:** <br>
+
 [Node/NPM](https://nodejs.org/en/) <br>
 [App do Expo](https://expo.io/) ou algum emulador de sua preferência
 <br>
