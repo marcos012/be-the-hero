@@ -1,5 +1,5 @@
 <h4 align="center">
-<img src="./img/logo3x.png" width="250px" /><br>
+<img src="https://github.com/marcos012/be-the-hero/blob/master/frontend/src/assets/logo.svg" width="250px" /><br>
 </h4>
 <p align="center">
   <a href="https://rocketseat.com.br">
