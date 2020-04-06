@@ -21,10 +21,10 @@ Projeto desenvolvido evento Semana omnistack 11 realizado pela [Rocketseat](http
 - [Expo](https://expo.io/)
 
 ## Iniciar aplicação
-**Pré-requisitos:**
-[Node/NPM](https://nodejs.org/en/)
-[app do Expo](https://expo.io/) ou algum emulador de sua preferência
-
+**Pré-requisitos:** <br>
+[Node/NPM](https://nodejs.org/en/) <br>
+[App do Expo](https://expo.io/) ou algum emulador de sua preferência
+<br />
 **Backend:**
 
 Entre na pasta backend :)
@@ -55,6 +55,7 @@ Start na aplicação
 ```
 npm start
 ```
+<br />
 
 **Mobile:**
 
@@ -69,6 +70,7 @@ Start na aplicação
 npm start
 ```
 Abra o app do Expo e escaneie o QRCode fornecido pelo terminal
+<br />
 
 ## License
 
